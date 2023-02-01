@@ -1,0 +1,2 @@
+# szymczyk_adrian
+Repozytorium na potrzeby zaliczenia przedmiotu Zarządzanie Przedsięwzięciami Informatycznymi
