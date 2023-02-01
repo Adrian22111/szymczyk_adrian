@@ -30,8 +30,6 @@ class Sequence
         //!\brief funkcja pozwalająca ustawić kolor obiektu
         void setColor(string);
         //!\brief funkcja obliczająca silnię danej liczby
-        int silnia(int);
-        //!\brief funkcja obliczająca prostą całkę
         double calcSimpleIntegral();
         //!\brief funkcja obliczająca skomplikowaną całkę
         double calcComplexIntegral();

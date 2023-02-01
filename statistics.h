@@ -2,6 +2,39 @@
 
 class Statistics
 {
+    /** \page Doxygen Doxygen
+        for more info see
+        <a href="https://doxygen.nl/manual/autolink.html">Doxygen</a>
+        \page IBM IBM
+        for more info see
+        <a href="https://www.ibm.com/docs/pl/spss-statistics/saas?topic=expressions-statistical-functions">IBM</a>
+
+    */
+
+    /*! \mainpage Dokumentacja na potrzeby egzaminu
+    *
+    * \section intro_sec Wprowadzanie
+    *
+    * Ta dokumentacja powstała z wykorzystaniem oprogramowania
+      Doxygen w wersji 1.9.5 na potrzeby zaliczenia przedmiotu
+      zarządzanie przedsięwzięciami informatycznymi
+    *
+    * \section Zawartość
+    *
+    * \subsection sequence
+       klasa sequence składa się z plików o rozszerzeniach .h i .cpp
+       zawiera konstruktor domyślny, konstruktor kopiujący,
+       destruktor, funkcje dostępu do składowych, funkcje obliczeniowe
+       wysokości trójkąta, całek.
+      \subsection statistics
+       klasa sequence składa się z plików o rozszerzeniach .h i .cpp
+       zawiera konstruktor domyślny, konstruktor kopiujący,
+       destruktor, funkcje dostępu do składowych, funkcje obliczeniowe
+       średniej arytmetycznej i średniej ważonej
+    *
+    * etc...
+    */
+
     private:
         //!\brief składowa przechowująca średnią arytmetyczną
         double arithmeticAverage();
@@ -40,7 +73,7 @@ class Statistics
         double calcArithmeticAverage();
 
         /** \brief metoda obliczająca średnią ważoną kilku wartości
-        
+
             calcAverageWeighted funkcją, który oblicza średnią ważoną ustalonej
             liczby obiektów dowolnego typu, które można pomnożyć i dodać.
             Dane wejściowe to dwie tablice: jedna dla wartości i jedna dla wag.
